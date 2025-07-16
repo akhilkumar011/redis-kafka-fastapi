@@ -1,0 +1,10 @@
+[project]
+name = "fastapi-kafka-redis"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "aiokafka",
+    "redis[async]",
+    "asyncio-redis>=0.16.0",
+]
